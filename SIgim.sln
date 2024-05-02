@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6FE605BA-7A1A-4E54-8350-D0EE455AA817}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentacion", "documentacion", "{70A4AF1F-CFB1-42C5-A672-DB344C3ADF57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{C4250208-057E-4848-951C-2B5D15B38FA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D8961312-05D4-43FA-961E-BBDD12368E89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{36A9FB4C-C5CA-4126-AA92-0ABFD248F98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigim.API", "Sigim.API\Sigim.API.csproj", "{CE20D697-1C4B-4B13-8808-97A2472E458B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigim.Domain", "Sigim.Domain\Sigim.Domain.csproj", "{2726FD8E-37CE-4A02-8BA7-0031A41B48CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigim.Application", "Sigim.Application\Sigim.Application.csproj", "{340B42A5-8892-4E88-867B-CD010E49C672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigim.Infrastructure", "Sigim.Infrastructure\Sigim.Infrastructure.csproj", "{71D62B6D-8BF7-4BAE-B003-EB70B8B780BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE20D697-1C4B-4B13-8808-97A2472E458B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE20D697-1C4B-4B13-8808-97A2472E458B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE20D697-1C4B-4B13-8808-97A2472E458B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE20D697-1C4B-4B13-8808-97A2472E458B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2726FD8E-37CE-4A02-8BA7-0031A41B48CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2726FD8E-37CE-4A02-8BA7-0031A41B48CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2726FD8E-37CE-4A02-8BA7-0031A41B48CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2726FD8E-37CE-4A02-8BA7-0031A41B48CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340B42A5-8892-4E88-867B-CD010E49C672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340B42A5-8892-4E88-867B-CD010E49C672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340B42A5-8892-4E88-867B-CD010E49C672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340B42A5-8892-4E88-867B-CD010E49C672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D62B6D-8BF7-4BAE-B003-EB70B8B780BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D62B6D-8BF7-4BAE-B003-EB70B8B780BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D62B6D-8BF7-4BAE-B003-EB70B8B780BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D62B6D-8BF7-4BAE-B003-EB70B8B780BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4250208-057E-4848-951C-2B5D15B38FA6} = {6FE605BA-7A1A-4E54-8350-D0EE455AA817}
+		{D8961312-05D4-43FA-961E-BBDD12368E89} = {6FE605BA-7A1A-4E54-8350-D0EE455AA817}
+		{36A9FB4C-C5CA-4126-AA92-0ABFD248F98F} = {6FE605BA-7A1A-4E54-8350-D0EE455AA817}
+		{CE20D697-1C4B-4B13-8808-97A2472E458B} = {C4250208-057E-4848-951C-2B5D15B38FA6}
+		{2726FD8E-37CE-4A02-8BA7-0031A41B48CA} = {D8961312-05D4-43FA-961E-BBDD12368E89}
+		{340B42A5-8892-4E88-867B-CD010E49C672} = {D8961312-05D4-43FA-961E-BBDD12368E89}
+		{71D62B6D-8BF7-4BAE-B003-EB70B8B780BA} = {36A9FB4C-C5CA-4126-AA92-0ABFD248F98F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95F14ABA-CCB3-4719-8D52-6557185F2709}
+	EndGlobalSection
+EndGlobal
